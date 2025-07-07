@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+import CircleImage from "./CircleImage";
+import profilePic from "../assets/pff.jpeg";
 
 const Hero = () => {
   return (
@@ -15,18 +16,38 @@ const Hero = () => {
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            안녕하세요, 제 닉네임은
+            Hello, I'm
             <br />
-            <span className="text-[#915eff]">Chobby 입니다!</span>
+            <span className="text-[#915eff]">Sean Pheavyraksonya</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            요즘은 3D 웹 개발 및<br className="sm:block hidden" /> AI 개발에
-            관심을 갖고있습니다.{" "}
+            Software Engineering's Student <br />
+            <br className="sm:block hidden" />
+            Kirirom Institute of Technology.{" "}
           </p>
         </div>
       </div>
-
-      <ComputersCanvas />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div className="flex justify-center items-center mt-6">
+        <CircleImage src={profilePic} alt="Sean" size={150} />
+      </div>
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

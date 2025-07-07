@@ -36,18 +36,17 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>소개하기</p>
-        <h2 className={styles.sectionHeadText}>Chobby에 대한 소갯말</h2>
+        <p className={styles.sectionSubText}>Introduction</p>
+        <h2 className={styles.sectionHeadText}>Sonya</h2>
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        저는 TypeScript 및 JavaScript에 대한 경험과 React, Node.js 및 Three.js와
-        같은 프레임워크에 대한 전문 지식을 갖춘 소프트웨어 개발자입니다. 빠른
-        학습능력을 갖추었으며, 실무를 해결하는 효율적인 방법을 찾기 위해 항상
-        노력합니다. 스스로 뛰어난 사용자 경험과 유지보수성 높은 솔루션을 만들기
-        위해 협력하는 자세를 갖춘 인재라고 생각합니다.
+        I'm a Software Engineering student with some experience using React.js,
+        TypeScript, JavaScript, HTML, CSS, and Tailwind CSS. I enjoy learning
+        new technologies and building user-friendly web applications. I'm always
+        open to improving and working with others to create better solutions.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

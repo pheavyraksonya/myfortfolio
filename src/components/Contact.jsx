@@ -65,8 +65,10 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>저에게 연락하고 싶으신가요?</p>
-        <h3 className={styles.sectionHeadText}>언제든지 연락주세요!</h3>
+        <p className={styles.sectionSubText}>Contact</p>
+        <h3 className={styles.sectionHeadText}>
+          Feel free to reach out anytime!
+        </h3>
 
         <form
           ref={formRef}
@@ -74,41 +76,35 @@ const Contact = () => {
           className="mt-12 flex flex-col gap-8"
         >
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">
-              이름을 알려주세요!
-            </span>
+            <span className="text-white font-medium mb-4">Username</span>
             <input
               type="text"
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="당신의 이름은 무엇인가요?"
+              placeholder="enter your name"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">
-              이메일을을 알려주세요!
-            </span>
+            <span className="text-white font-medium mb-4">Email</span>
             <input
               type="email"
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="당신의 이메일은 무엇인가요?"
+              placeholder="enter your email"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
-            <span className="text-white font-medium mb-4">
-              어떤말을 하고싶으신가요?
-            </span>
+            <span className="text-white font-medium mb-4">Message</span>
             <textarea
               rows="7"
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="제게 하고싶은 말을 적어주세요!"
+              placeholder="put your message here..."
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -116,7 +112,7 @@ const Contact = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
           >
-            {loading ? "전송중..." : "전송하기"}
+            {loading ? "Sending..." : "Send"}
           </button>
         </form>
       </motion.div>
