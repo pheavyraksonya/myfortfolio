@@ -135,10 +135,12 @@ const Works = () => {
         </div>
         <div className="w-full flex">
           <p>
-            아래 프로젝트들은 진행했던 제 작업들을 나열하여 그간 학습했던 기술과
-            경험을 반영합니다. 각 프로젝트들은 깃헙 레포지토리 및 라이브 데모에
-            대한 링크와 함께 간략한 설명이 있으며, 복잡한 문제를 해결하고 다양한
-            기술을 활용하는 프로젝트를 좋아합니다.
+            The projects below showcase the work I’ve done and reflect the
+            skills and knowledge I’ve gained throughout my learning journey.
+            Each project includes a brief description along with links to the
+            GitHub repository and live demo. I enjoy solving challenging
+            problems and love using a variety of technologies to build creative,
+            functional solutions.
           </p>
         </div>
         <div className="mt-20 flex flex-wrap gap-7">
