@@ -22,6 +22,9 @@ import Sanghyun from "./Sanghyun.jpg";
 import MyBro from "./MyBro.png";
 import cafora from "./cafora1.jpg";
 import python from "./tech/python.png";
+import java from "./tech/javalogo.png";
+import githubb from "./tech/githubb.png";
+import npm from "./tech/npmlogo.png";
 
 export {
   MyBro,
@@ -48,4 +51,7 @@ export {
   cafora,
   claude,
   python,
+  java,
+  githubb,
+  npm,
 };

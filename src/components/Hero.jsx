@@ -22,8 +22,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Software Engineering's Student <br />
-            <br className="sm:block hidden" />
-            Kirirom Institute of Technology.{" "}
+            <br className="sm:block hidden" />{" "}
           </p>
         </div>
       </div>
@@ -42,9 +41,7 @@ const Hero = () => {
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
+
       <div className="flex justify-center items-center mt-6">
         <CircleImage src={profilePic} alt="Sean" size={150} />
       </div>

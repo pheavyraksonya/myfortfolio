@@ -18,6 +18,9 @@ import {
   cafora,
   MyBro,
   python,
+  java,
+  githubb,
+  npm,
 } from "../assets";
 
 export const navLinks = [
@@ -84,10 +87,21 @@ const technologies = [
     name: "Python",
     icon: python,
   },
-
+  {
+    name: "Java",
+    icon: java,
+  },
   {
     name: "git",
     icon: git,
+  },
+  {
+    name: "github",
+    icon: githubb,
+  },
+  {
+    name: "npm",
+    icon: npm,
   },
   {
     name: "figma",
